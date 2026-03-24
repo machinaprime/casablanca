@@ -1,11 +1,31 @@
-node_modules/
-package.json
-package-lock.json
-*.pyc
+# Python bytecode
 __pycache__/
-.venv/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+polymarket-venv/
 venv/
 .env
-*.log
-*.enc
-credentials/
+.env.*
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Workspace and tooling
+.openclaw/
+extract/
+
+# Editors and OS files
+.DS_Store
+*.swp
+*~
+
+# Test and caches
+.pytest_cache/
+
+# IDEs
+.vscode/
+.idea/
