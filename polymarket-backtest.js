@@ -10,13 +10,26 @@ let portfolio = { cash: INITIAL_CAPITAL, trades: [], wins: 0, losses: 0 };
 function log(msg) { console.log(msg); }
 
 async function getMarkets() {
-  const r = await axios.get('https://clob.polymarket.com/markets?limit=30&active=true');
-  return r.data?.data || r.data;
+  try {
+    const r = await axios.get('https://clob.polymarket.com/markets?limit=30&active=true', {timeout: 10000});
+    return r.data?.data || r.data;
+  } catch(e) {
+    log('❌ Error fetching markets: ' + e.message);
+    return [];
+  }
 }
 
 async function getOrderbook(tokenId) {
-  const r = await axios.get('https://clob.polymarket.com/orderbook?token_id=' + tokenId);
-  return r.data;
+  try {
+    // Safely construct URL to prevent injection attacks
+    const url = new URL('https://clob.polymarket.com/orderbook');
+    url.searchParams.append('token_id', String(tokenId));
+    const r = await axios.get(url.toString(), {timeout: 5000});
+    return r.data;
+  } catch(e) {
+    log('❌ Error fetching orderbook: ' + e.message);
+    return null;
+  }
 }
 
 // High volatility simulation
@@ -78,7 +91,9 @@ async function backtest() {
         if (profit > 0) portfolio.wins++;
         else portfolio.losses++;
       }
-    } catch (e) { }
+    } catch (e) {
+      log('⚠️  Error processing market: ' + (e.message || 'Unknown error'));
+    }
   }
 
   const final = portfolio.cash;

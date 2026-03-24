@@ -32,15 +32,20 @@ async function getMarkets() {
     const r = await axios.get(CLOB + '/markets?limit=50&active=true', {timeout: 10000});
     return r.data?.data || r.data;
   } catch(e) {
+    console.error('❌ Error fetching markets:', e.message);
     return [];
   }
 }
 
 async function getOrderbook(tokenId) {
   try {
-    const r = await axios.get(CLOB + '/orderbook?token_id=' + tokenId, {timeout: 5000});
+    // Safely construct URL to prevent injection attacks
+    const url = new URL(CLOB + '/orderbook');
+    url.searchParams.append('token_id', String(tokenId));
+    const r = await axios.get(url.toString(), {timeout: 5000});
     return r.data;
   } catch(e) {
+    console.error('❌ Error fetching orderbook:', e.message);
     return null;
   }
 }

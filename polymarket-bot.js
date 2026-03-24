@@ -10,13 +10,29 @@
 const { ethers } = require('ethers');
 const axios = require('axios');
 
+// Helper: Safely parse and validate config values
+function parseConfig(name, defaultVal, validator) {
+  const val = process.env[name];
+  if (!val) return defaultVal;
+  
+  if (name.includes('PROFIT') || name.includes('SIZE')) {
+    const num = parseFloat(val);
+    if (!Number.isFinite(num) || num <= 0) {
+      throw new Error(`Invalid ${name}: must be a positive number, got "${val}"`);
+    }
+    return num;
+  }
+  return val;
+}
+
 // Load from environment variables - NEVER hardcode keys!
 const CONFIG = {
   privateKey: process.env.POLY_PRIVATE_KEY,
   proxyWallet: process.env.POLY_PROXY_WALLET,
-  tradeSize: parseInt(process.env.TRADE_SIZE) || 5,
-  minProfit: parseFloat(process.env.MIN_PROFIT) || 0.02,
-  dryRun: process.env.DRY_RUN !== 'false'
+  tradeSize: parseConfig('TRADE_SIZE', 5),
+  minProfit: parseConfig('MIN_PROFIT', 0.02),
+  dryRun: process.env.DRY_RUN !== 'false',
+  timeout: parseInt(process.env.TIMEOUT) || 10000
 };
 
 // Validate config
@@ -43,19 +59,23 @@ console.log('');
 
 async function getMarkets() {
   try {
-    const r = await axios.get(CLOB + '/markets?limit=30&active=true', {timeout: 10000});
+    const r = await axios.get(CLOB + '/markets?limit=30&active=true', {timeout: CONFIG.timeout});
     return r.data?.data || r.data;
   } catch(e) {
-    console.log('Error fetching markets:', e.message);
+    console.error('❌ Error fetching markets:', e.message);
     return [];
   }
 }
 
 async function getOrderbook(tokenId) {
   try {
-    const r = await axios.get(CLOB + '/orderbook?token_id=' + tokenId, {timeout: 5000});
+    // Safely construct URL to prevent injection attacks
+    const url = new URL(CLOB + '/orderbook');
+    url.searchParams.append('token_id', String(tokenId));
+    const r = await axios.get(url.toString(), {timeout: CONFIG.timeout});
     return r.data;
   } catch(e) {
+    console.error('❌ Error fetching orderbook:', e.message);
     return null;
   }
 }
