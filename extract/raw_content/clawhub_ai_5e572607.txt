@@ -1,0 +1,65 @@
+# Source URL: https://clawhub.ai/adlai88/polymarket-fast-loop
+# Content Length: 6191 characters
+# Extracted at: 2026-02-25 15:59:43
+#============================================================
+
+Polymarket Fast Loop — ClawHub
+[![](/clawd-logo.png)ClawHub](/)[Skills](/skills)[Upload](/upload)[Import](/import)[Search](/skills?focus=search)
+SystemLightDark
+Sign inwith GitHub
+\*\*Skill flagged — suspicious patterns detected\*\*
+ClawHub Security flagged this skill as suspicious. Review the scan results before using.
+# Polymarket Fast Loop
+Trade Polymarket BTC 5-minute and 15-minute fast markets using CEX price momentum signals via Simmer API. Default signal is Binance BTC/USDT klines. Use when...
+⭐ 15 · 1.7k · 1 current installs · 1 all-time installs
+by![](https://avatars.githubusercontent.com/u/6263940?v=4)AD88·[@adlai88](/u/adlai88)
+Security Scan
+VirusTotalVirusTotal
+Suspicious
+[View report →](https://www.virustotal.com/gui/file/bc0e892d08a7ab3a530b539c29d18bd7c40f34224a32c6d9d6f18ab1e12ce671)
+OpenClawOpenClaw
+Suspicious
+high confidence
+The skill mostly matches its trading purpose, but its runtime instructions ask for a wallet private key (and to store it in the environment) without declaring that credential in the registry — a meaningful inconsistency that increases risk when running automated trading code.Details ▾
+ℹ
+Purpose & Capability
+Name/description describe Polymarket trading using Simmer signals and the code implements market discovery, signal fetching, and order submission via the simmer-sdk. Requiring SIMMER\\_API\\_KEY and simmer-sdk is coherent. However the SKILL.md explicitly instructs asking for and storing WALLET\\_PRIVATE\\_KEY for live trading, yet the registry metadata does not declare that required credential (primary credential is none). The private key requirement is plausible for a trading skill, but it should be declared.
+!
+Instruction Scope
+Runtime instructions tell the operator to ask users for a wallet private key and store it in the environment (WALLET\\_PRIVATE\\_KEY) and to run cron jobs that execute the script with --live. That encourages putting a high-value secret into plain environment variables and potentially into scheduled commands. The SKILL.md also instructs to set up cron/heartbeat loops which, combined with a private key and autonomous invocation capability, increases potential blast radius. The instructions reference files (config.json, daily\\_spend.json) and external APIs (Polymarket/Gamma, Binance/CoinGecko) which are consistent with the stated purpose, but the undocumented private-key handling and guidance to place secrets in crontab/environment is a scope and operational risk concern.
+✓
+Install Mechanism
+No install spec is provided; the skill is instruction/code-only. It does import simmer\\_sdk (the SKILL.md and metadata recommend pip install simmer-sdk), which is a normal package dependency for this purpose. There are no downloads from arbitrary URLs or extraction steps included in the manifest.
+!
+Credentials
+The registry's declared required env var is SIMMER\\_API\\_KEY, which is appropriate. But the SKILL.md asks for WALLET\\_PRIVATE\\_KEY for live trading and advises storing it in the environment; this credential is not declared in the registry metadata. That mismatch is important: a private key is a high-value secret and should be explicitly required, justified, and handled with secure guidance. Several config env variables are optional and reasonable for tuning the strategy.
+ℹ
+Persistence & Privilege
+The skill is not marked always:true and uses normal autonomous invocation defaults. It writes local state files (config.json updates, daily\\_spend.json) in its skill directory which is expected for a trading bot. The combination of autonomous invocation + an undocumented wallet private key raises the risk profile (an autonomously-invocable skill with access to a private key has broad potential impact), but autonomous invocation itself is the platform default and not alone a disqualifier.
+What to consider before installing
+This skill generally does what it says (discover Polymarket fast markets, compute momentum signals, and trade via simmer-sdk), but there are red flags you should resolve before installing:
+- Ask the publisher to explicitly declare WALLET\\_PRIVATE\\_KEY (or whatever signing mechanism is used) in the skill registry and explain how the key is used. Right now SIMMER\\_API\\_KEY is declared but the private-key requirement is only in SKILL.md.
+- Avoid putting long-term private keys directly into environment variables on shared hosts or in crontab commands. Prefer an ephemeral signing mechanism, a hardware wallet, or a secrets manager that injects credentials at runtime with limited scope.
+- If you must use an env-based private key, restrict file system access and process visibility (set secure file permissions, run in an isolated container, avoid logging the key, and be careful with system-wide cron entries that may expose environment). Consider running in dry-run mode first (--live not set) to validate behavior.
+- Review simmer-sdk documentation and inspect fastloop\\_trader.py end-to-end to confirm where and how the key is used/sent. Confirm whether signing is done client-side or if the key is uploaded to an external service.
+- Start with small daily\\_budget and enable logging/alerts for unexpected trades. Consider running the skill under an isolated account with minimal funds.
+Given the undisclosed private-key handling and the operational guidance to store secrets in env/crontab, treat this skill as higher risk until the credential handling is clarified and hardened.
+Like a lobster shell, security has layers — review code before you run it.
+Current version\*\*v1.0.13\*\*
+[Download zip](https://wry-manatee-359.convex.site/api/v1/download?slug=polymarket-fast-loop)
+latestv1.0.13
+### Runtime requirements
+⚡ Clawdis
+\*\*Env\*\*SIMMER\\_API\\_KEY
+FilesCompareVersions
+Loading file viewer…
+## Comments
+Sign in to comment.
+\*\*@nekojiru\*\*
+Trade failed: ORDER\\_REJECTED: invalid fee rate (0), current market's taker fee: 1000
+\*\*@daymien1919-lab\*\*
+How to fix this error ?
+X Failed to fetch price data.
+\*\*@kapusigergo14-sys\*\*
+No start command was found problem
+ClawHub · An[OpenClaw](https://openclaw.ai)project ·[Open source (MIT)](https://github.com/openclaw/clawhub)·[Peter Steinberger](https://steipete.me).

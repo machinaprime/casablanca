@@ -1,0 +1,1139 @@
+# Source URL: https://github.com/Novus-Tech-LLC/Polymarket-Arbitrage-Bot
+# Content Length: 31481 characters
+# Extracted at: 2026-02-25 17:14:26
+#============================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+GitHub - Novus-Tech-LLC/Polymarket-Arbitrage-Bot: Polymarket and kalshi trading bot, polymarket trading bot, polymarket arbitrage bot, polymarket trading bot, kashi trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot
+
+
+
+
+
+
+
+
+
+
+
+
+[Skip to content](#start-of-content)
+
+
+
+
+Navigation Menu
+---------------
+
+Toggle navigation
+
+ 
+
+
+
+
+
+
+[Sign in](/login?return_to=https%3A%2F%2Fgithub.com%2FNovus-Tech-LLC%2FPolymarket-Arbitrage-Bot)
+ 
+
+
+Appearance settings
+
+
+
+
+
+
+
+
+* Platform
+  + AI CODE CREATION
+    - [GitHub CopilotWrite better code with AI](https://github.com/features/copilot)
+    - [GitHub SparkBuild and deploy intelligent apps](https://github.com/features/spark)
+    - [GitHub ModelsManage and compare prompts](https://github.com/features/models)
+    - [MCP RegistryNewIntegrate external tools](https://github.com/mcp)
+  + DEVELOPER WORKFLOWS
+    - [ActionsAutomate any workflow](https://github.com/features/actions)
+    - [CodespacesInstant dev environments](https://github.com/features/codespaces)
+    - [IssuesPlan and track work](https://github.com/features/issues)
+    - [Code ReviewManage code changes](https://github.com/features/code-review)
+  + APPLICATION SECURITY
+    - [GitHub Advanced SecurityFind and fix vulnerabilities](https://github.com/security/advanced-security)
+    - [Code securitySecure your code as you build](https://github.com/security/advanced-security/code-security)
+    - [Secret protectionStop leaks before they start](https://github.com/security/advanced-security/secret-protection)
+  + EXPLORE
+    - [Why GitHub](https://github.com/why-github)
+    - [Documentation](https://docs.github.com)
+    - [Blog](https://github.blog)
+    - [Changelog](https://github.blog/changelog)
+    - [Marketplace](https://github.com/marketplace)[View all features](https://github.com/features)
+* Solutions
+  + BY COMPANY SIZE
+    - [Enterprises](https://github.com/enterprise)
+    - [Small and medium teams](https://github.com/team)
+    - [Startups](https://github.com/enterprise/startups)
+    - [Nonprofits](https://github.com/solutions/industry/nonprofits)
+  + BY USE CASE
+    - [App Modernization](https://github.com/solutions/use-case/app-modernization)
+    - [DevSecOps](https://github.com/solutions/use-case/devsecops)
+    - [DevOps](https://github.com/solutions/use-case/devops)
+    - [CI/CD](https://github.com/solutions/use-case/ci-cd)
+    - [View all use cases](https://github.com/solutions/use-case)
+  + BY INDUSTRY
+    - [Healthcare](https://github.com/solutions/industry/healthcare)
+    - [Financial services](https://github.com/solutions/industry/financial-services)
+    - [Manufacturing](https://github.com/solutions/industry/manufacturing)
+    - [Government](https://github.com/solutions/industry/government)
+    - [View all industries](https://github.com/solutions/industry)[View all solutions](https://github.com/solutions)
+* Resources
+  + EXPLORE BY TOPIC
+    - [AI](https://github.com/resources/articles?topic=ai)
+    - [Software Development](https://github.com/resources/articles?topic=software-development)
+    - [DevOps](https://github.com/resources/articles?topic=devops)
+    - [Security](https://github.com/resources/articles?topic=security)
+    - [View all topics](https://github.com/resources/articles)
+  + EXPLORE BY TYPE
+    - [Customer stories](https://github.com/customer-stories)
+    - [Events & webinars](https://github.com/resources/events)
+    - [Ebooks & reports](https://github.com/resources/whitepapers)
+    - [Business insights](https://github.com/solutions/executive-insights)
+    - [GitHub Skills](https://skills.github.com)
+  + SUPPORT & SERVICES
+    - [Documentation](https://docs.github.com)
+    - [Customer support](https://support.github.com)
+    - [Community forum](https://github.com/orgs/community/discussions)
+    - [Trust center](https://github.com/trust-center)
+    - [Partners](https://github.com/partners)[View all resources](https://github.com/resources)
+* Open Source
+  + COMMUNITY
+    - [GitHub SponsorsFund open source developers](https://github.com/sponsors)
+  + PROGRAMS
+    - [Security Lab](https://securitylab.github.com)
+    - [Maintainer Community](https://maintainers.github.com)
+    - [Accelerator](https://github.com/accelerator)
+    - [Archive Program](https://archiveprogram.github.com)
+  + REPOSITORIES
+    - [Topics](https://github.com/topics)
+    - [Trending](https://github.com/trending)
+    - [Collections](https://github.com/collections)
+* Enterprise
+  + ENTERPRISE SOLUTIONS
+    - [Enterprise platformAI-powered developer platform](https://github.com/enterprise)
+  + AVAILABLE ADD-ONS
+    - [GitHub Advanced SecurityEnterprise-grade security features](https://github.com/security/advanced-security)
+    - [Copilot for BusinessEnterprise-grade AI features](https://github.com/features/copilot/copilot-business)
+    - [Premium SupportEnterprise-grade 24/7 support](https://github.com/premium-support)
+* [Pricing](https://github.com/pricing)
+
+
+
+Search or jump to...
+
+
+
+
+Search code, repositories, users, issues, pull requests...
+==========================================================
+
+ 
+Search
+
+
+
+
+Clear
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+[Search syntax tips](https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax) 
+
+
+
+
+
+
+
+Provide feedback
+================
+
+
+
+
+
+ 
+
+We read every piece of feedback, and take your input very seriously.
+
+
+
+Include my email address so I can be contacted
+
+
+  Cancel
+
+ Submit feedback
+
+
+
+Saved searches
+==============
+
+Use saved searches to filter your results more quickly
+------------------------------------------------------
+
+
+
+
+
+ 
+
+Name
+
+
+
+
+Query
+
+To see all available qualifiers, see our [documentation](https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax).
+
+ 
+
+
+
+
+  Cancel
+
+ Create saved search
+
+
+
+
+
+
+[Sign in](/login?return_to=https%3A%2F%2Fgithub.com%2FNovus-Tech-LLC%2FPolymarket-Arbitrage-Bot)
+
+[Sign up](/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=Novus-Tech-LLC%2FPolymarket-Arbitrage-Bot)
+ 
+
+
+Appearance settings
+
+
+
+
+
+
+Resetting focus
+
+
+
+
+
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+You switched accounts on another tab or window. Reload to refresh your session.
+ 
+
+
+Dismiss alert
+
+
+
+{{ message }}
+
+
+
+
+
+[Novus-Tech-LLC](/Novus-Tech-LLC) 
+/
+**[Polymarket-Arbitrage-Bot](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot)**
+Public
+
+
+* [Notifications](/login?return_to=%2FNovus-Tech-LLC%2FPolymarket-Arbitrage-Bot) You must be signed in to change notification settings
+* [Fork
+  13](/login?return_to=%2FNovus-Tech-LLC%2FPolymarket-Arbitrage-Bot)
+* [Star
+   34](/login?return_to=%2FNovus-Tech-LLC%2FPolymarket-Arbitrage-Bot)
+
+
+Polymarket and kalshi trading bot, polymarket trading bot, polymarket arbitrage bot, polymarket trading bot, kashi trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot
+
+
+[polymarket.com/](https://polymarket.com/)
+
+### License
+
+[MIT license](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/blob/main/LICENSE)
+
+[34
+stars](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/stargazers) [13
+forks](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/forks) [Branches](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/branches) [Tags](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/tags) [Activity](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/activity) 
+ [Star](/login?return_to=%2FNovus-Tech-LLC%2FPolymarket-Arbitrage-Bot)
+
+ [Notifications](/login?return_to=%2FNovus-Tech-LLC%2FPolymarket-Arbitrage-Bot) You must be signed in to change notification settings
+
+
+
+
+
+* [Code](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot)
+* [Issues
+  1](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/issues)
+* [Pull requests
+  0](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/pulls)
+* [Actions](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/actions)
+* [Projects
+  0](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/projects)
+* [Security
+  0](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/security)
+* [Insights](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/pulse)
+
+ 
+ 
+
+
+Additional navigation options
+ 
+
+* [Code](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot)
+* [Issues](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/issues)
+* [Pull requests](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/pulls)
+* [Actions](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/actions)
+* [Projects](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/projects)
+* [Security](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/security)
+* [Insights](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/pulse)
+
+
+ 
+
+
+
+Novus-Tech-LLC/Polymarket-Arbitrage-Bot
+=======================================
+
+ 
+
+    main[Branches](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/branches)[Tags](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/tags)Go to fileCodeOpen more actions menu
+
+Folders and files
+-----------------
+
+| Name | Name | Last commit message | Last commit date |
+| --- | --- | --- | --- |
+| Latest commit History[3 Commits](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/commits/main/)3 Commits |
+| [polymarket\_arbitrage](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/tree/main/polymarket_arbitrage) | [polymarket\_arbitrage](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/tree/main/polymarket_arbitrage) |  |  |
+| [.env.example](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/blob/main/.env.example) | [.env.example](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/blob/main/.env.example) |  |  |
+| [.gitignore](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/blob/main/.gitignore) | [.gitignore](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/blob/main/.gitignore) |  |  |
+| [CODE\_STYLE.md](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/blob/main/CODE_STYLE.md) | [CODE\_STYLE.md](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/blob/main/CODE_STYLE.md) |  |  |
+| [LICENSE](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/blob/main/LICENSE) | [LICENSE](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/blob/main/LICENSE) |  |  |
+| [README.md](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/blob/main/README.md) | [README.md](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/blob/main/README.md) |  |  |
+| [config.example.yaml](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/blob/main/config.example.yaml) | [config.example.yaml](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/blob/main/config.example.yaml) |  |  |
+| [requirements.txt](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/blob/main/requirements.txt) | [requirements.txt](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/blob/main/requirements.txt) |  |  |
+| [setup.py](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/blob/main/setup.py) | [setup.py](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/blob/main/setup.py) |  |  |
+| View all files |
+
+Repository files navigation
+---------------------------
+
+* [README](#)
+* [MIT license](#)
+
+Polymarket Trading Bot - Automated Arbitrage & Flash Crash Detection
+====================================================================
+
+[![]()](https://www.python.org/downloads/)
+[![]()](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/blob/main/LICENSE)
+[![]()](https://www.python.org/dev/peps/pep-0008/)
+
+> **Professional Python trading bot for Polymarket prediction markets with gasless transactions, real-time WebSocket orderbook streaming, and automated trading strategies.**
+
+🚀 Overview
+----------
+
+The **Polymarket Trading Bot** is a production-ready Python library and CLI tool for automated trading on Polymarket, the leading decentralized prediction market platform. Built for traders and developers who need reliable, low-latency access to Polymarket's orderbook and trading infrastructure.
+
+### Key Capabilities
+
+* ⚡ **Zero Gas Fees** - Builder Program integration for gasless transactions
+* 📊 **Real-time Data** - WebSocket orderbook streaming with sub-second latency
+* 🤖 **Automated Strategies** - Pre-built flash crash detection and custom strategy framework
+* 🔒 **Enterprise Security** - PBKDF2 + Fernet encrypted key storage
+* 🎯 **15-Minute Markets** - Native support for BTC, ETH, SOL, XRP prediction markets
+* 🛠️ **Developer Friendly** - Clean Python API with comprehensive documentation
+
+📋 Table of Contents
+-------------------
+
+* [Features](#-features)
+* [Installation](#-installation)
+* [Quick Start](#-quick-start)
+* [Usage Examples](#-usage-examples)
+* [Trading Strategies](#-trading-strategies)
+* [Configuration](#-configuration)
+* [API Reference](#-api-reference)
+* [Project Structure](#-project-structure)
+* [Security](#-security)
+* [Troubleshooting](#-troubleshooting)
+* [Contributing](#-contributing)
+* [License](#-license)
+
+✨ Features
+----------
+
+
+### Core Functionality
+
+* **Gasless Trading** - Zero transaction fees via Polymarket Builder Program
+* **Real-time WebSocket** - Live orderbook updates with automatic reconnection
+* **Market Discovery** - Automatic 15-minute market detection for major cryptocurrencies
+* **Order Management** - Place, cancel, and track orders with comprehensive status reporting
+* **Position Tracking** - Built-in position management with take-profit and stop-loss
+* **Secure Key Storage** - Industry-standard encryption for private keys (PBKDF2 + Fernet)
+
+### Trading Strategies
+
+* **Flash Crash Detection** - Automated volatility trading strategy
+* **Custom Strategy Framework** - Extensible base classes for building your own strategies
+* **Real-time Price Tracking** - Historical price analysis and pattern detection
+
+### Developer Tools
+
+* **CLI Tools** - Command-line interfaces for strategy execution and market monitoring
+* **Orderbook Viewer** - Beautiful terminal UI for real-time market visualization
+* **Comprehensive API** - Well-documented Python interface
+
+📦 Installation
+--------------
+
+
+### Prerequisites
+
+* Python 3.8 or higher
+* pip package manager
+* Polymarket account with Builder Program access (for gasless trading)
+
+### Install from Source
+
+
+```
+# Clone the repository
+git clone https://github.com/Novus-Tech-LLC/polymarket-arbitrage-bot.git
+cd polymarket-arbitrage-bot
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Install package in development mode
+pip install -e .
+```
+
+### Verify Installation
+
+
+```
+# Check CLI tools are available
+polymarket-orderbook --help
+polymarket-flash-crash --help
+```
+
+🎯 Quick Start
+-------------
+
+
+### 1. Configure Environment Variables
+
+Create a `.env` file or export environment variables:
+
+```
+# Required
+export POLY_PRIVATE_KEY=your_private_key_here
+export POLY_PROXY_WALLET=0xYourPolymarketProxyWallet
+
+# Optional - for gasless trading
+export POLY_BUILDER_API_KEY=your_builder_api_key
+export POLY_BUILDER_API_SECRET=your_builder_api_secret
+export POLY_BUILDER_API_PASSPHRASE=your_builder_passphrase
+```
+> **💡 Finding Your Proxy Wallet**: Visit [polymarket.com/settings](https://polymarket.com/settings) to find your Proxy wallet address.
+
+### 2. View Real-time Orderbook (No Trading Required)
+
+Monitor live market data without placing trades:
+
+```
+# View ETH 15-minute market orderbook
+polymarket-orderbook --coin ETH
+```
+
+[![]()](https://private-user-images.githubusercontent.com/38547278/534486443-83621505-41e7-4b5a-90fd-3c84d1610291.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzIwMTExNjQsIm5iZiI6MTc3MjAxMDg2NCwicGF0aCI6Ii8zODU0NzI3OC81MzQ0ODY0NDMtODM2MjE1MDUtNDFlNy00YjVhLTkwZmQtM2M4NGQxNjEwMjkxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAyMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMjI1VDA5MTQyNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWI5NmQ3ZTNlYjlmMzliNGExYzMxNWNiODRkZWMzZWQ5MDkyNjg2MTZhZDJlMTMzZGE1ZmY0NTQ1ZmNkZjVkYjImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.UY-teibmhU0VYHPfZ8BV_4M1gpcT7kIzi8IRbyPTld4)
+
+### 3. Run Flash Crash Strategy
+
+Execute automated trading strategy:
+
+```
+# Run with default settings (ETH, $5 size, 30% drop threshold)
+polymarket-flash-crash --coin ETH
+
+# Customize parameters
+polymarket-flash-crash --coin BTC --size 10.0 --drop 0.25 --lookback 15
+```
+
+[![]()](https://private-user-images.githubusercontent.com/38547278/534486665-d5ccffc8-20c5-4cd1-9c3b-679099b22899.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzIwMTExNjQsIm5iZiI6MTc3MjAxMDg2NCwicGF0aCI6Ii8zODU0NzI3OC81MzQ0ODY2NjUtZDVjY2ZmYzgtMjBjNS00Y2QxLTljM2ItNjc5MDk5YjIyODk5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAyMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMjI1VDA5MTQyNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTE1MGI3N2JmOTFhODE2N2NkODUzOTc3ZTBiOWJiNzA5NTI5NTM0N2ZlYmUwZGYwODZmZjQ4ODc2ODY2NDgyZjMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.fhe5Oaeb1umF0CP1cPVRNZo5A2Iwkc7FZUsbkIn0NKQ)
+
+💻 Usage Examples
+----------------
+
+
+### Basic Bot Initialization
+
+
+```
+from polymarket_arbitrage import create_bot_from_env
+import asyncio
+
+async def main():
+    # Initialize bot from environment variables
+    bot = create_bot_from_env()
+    
+    # Get open orders
+    orders = await bot.get_open_orders()
+    print(f"Open orders: {len(orders)}")
+    
+    # Get trade history
+    trades = await bot.get_trades(limit=10)
+    for trade in trades:
+        print(f"Trade: {trade['price']} @ {trade['size']}")
+
+asyncio.run(main())
+```
+
+### Place a Limit Order
+
+
+```
+from polymarket_arbitrage import TradingBot, Config
+
+# Initialize with configuration
+config = Config(safe_address="0xYourProxyWallet")
+bot = TradingBot(config=config, private_key="0xYourPrivateKey")
+
+# Place a buy order
+result = await bot.place_order(
+    token_id="123456789012345678901234567890",
+    price=0.65,  # 65% probability
+    size=10.0,   # $10 USDC
+    side="BUY"
+)
+
+if result.success:
+    print(f"Order placed: {result.order_id}")
+else:
+    print(f"Order failed: {result.message}")
+```
+
+### Real-time WebSocket Streaming
+
+
+```
+from polymarket_arbitrage import MarketWebSocket
+
+async def main():
+    ws = MarketWebSocket()
+    
+    # Set up orderbook update handler
+    @ws.on_book
+    async def handle_book(snapshot):
+        print(f"Asset: {snapshot.asset_id}")
+        print(f"Mid Price: {snapshot.mid_price:.4f}")
+        print(f"Best Bid: {snapshot.best_bid:.4f}")
+        print(f"Best Ask: {snapshot.best_ask:.4f}")
+    
+    # Subscribe to token IDs
+    await ws.subscribe(["token_id_1", "token_id_2"])
+    
+    # Run WebSocket connection
+    await ws.run(auto_reconnect=True)
+
+asyncio.run(main())
+```
+
+### Custom Trading Strategy
+
+
+```
+from polymarket_arbitrage import TradingBot
+from polymarket_arbitrage.strategies import BaseStrategy, StrategyConfig
+from polymarket_arbitrage.core.websocket_client import OrderbookSnapshot
+
+class MyStrategy(BaseStrategy):
+    async def on_book_update(self, snapshot: OrderbookSnapshot) -> None:
+        """Handle orderbook updates."""
+        if snapshot.mid_price < 0.30:
+            await self.execute_buy("up", snapshot.mid_price)
+    
+    async def on_tick(self, prices: dict) -> None:
+        """Called on each strategy tick."""
+        # Your trading logic here
+        pass
+    
+    def render_status(self, prices: dict) -> None:
+        """Render status display."""
+        print(f"UP: {prices.get('up', 0):.4f} | DOWN: {prices.get('down', 0):.4f}")
+
+# Initialize and run
+bot = TradingBot(...)
+config = StrategyConfig(coin="ETH", size=5.0)
+strategy = MyStrategy(bot, config)
+await strategy.run()
+```
+
+📈 Trading Strategies
+--------------------
+
+
+### Flash Crash Strategy
+
+The Flash Crash strategy monitors 15-minute prediction markets for sudden probability drops and executes trades automatically.
+
+**How It Works:**
+
+1. Monitors real-time orderbook prices via WebSocket
+2. Tracks price history over configurable lookback window
+3. Detects when probability drops exceed threshold
+4. Executes buy orders on crashed side
+5. Manages positions with take-profit and stop-loss
+
+**Usage:**
+
+```
+# Default settings (ETH, $5 size, 30% drop threshold)
+polymarket-flash-crash --coin ETH
+
+# Custom configuration
+polymarket-flash-crash \
+    --coin BTC \
+    --size 10.0 \
+    --drop 0.30 \
+    --lookback 10 \
+    --take-profit 0.10 \
+    --stop-loss 0.05
+```
+
+**Parameters:**
+
+| Parameter | Description | Default |
+| --- | --- | --- |
+| `--coin` | Coin symbol (BTC, ETH, SOL, XRP) | ETH |
+| `--size` | Trade size in USDC | 5.0 |
+| `--drop` | Drop threshold (absolute change) | 0.30 |
+| `--lookback` | Detection window in seconds | 10 |
+| `--take-profit` | Take profit in dollars | 0.10 |
+| `--stop-loss` | Stop loss in dollars | 0.05 |
+| `--debug` | Enable debug logging | False |
+
+
+### Orderbook Viewer
+
+Real-time terminal UI for monitoring market depth and prices:
+
+```
+polymarket-orderbook --coin BTC
+```
+
+**Features:**
+
+* Live orderbook updates
+* Dual orderbook display (Up/Down tokens)
+* Market countdown timer
+* Price history tracking
+* Volatility metrics
+
+⚙️ Configuration
+----------------
+
+
+### Environment Variables
+
+
+| Variable | Required | Description |
+| --- | --- | --- |
+| `POLY_PRIVATE_KEY` | ✅ Yes | Wallet private key (64 hex characters) |
+| `POLY_PROXY_WALLET` | ✅ Yes | Polymarket Proxy wallet address |
+| `POLY_BUILDER_API_KEY` | ⚪ Optional | Builder Program API key (for gasless trading) |
+| `POLY_BUILDER_API_SECRET` | ⚪ Optional | Builder Program API secret |
+| `POLY_BUILDER_API_PASSPHRASE` | ⚪ Optional | Builder Program passphrase |
+| `POLY_RPC_URL` | ⚪ Optional | Custom Polygon RPC URL |
+| `POLY_CLOB_HOST` | ⚪ Optional | Custom CLOB API host |
+| `POLY_LOG_LEVEL` | ⚪ Optional | Logging level (DEBUG, INFO, WARNING, ERROR) |
+
+
+### Configuration File
+
+Create `config.yaml`:
+
+```
+safe_address: "0xYourProxyWalletAddress"
+rpc_url: "https://polygon-rpc.com"
+
+builder:
+  api_key: "your_builder_api_key"
+  api_secret: "your_builder_api_secret"
+  api_passphrase: "your_builder_passphrase"
+
+clob:
+  host: "https://clob.polymarket.com"
+  chain_id: 137
+
+log_level: "INFO"
+```
+
+Load configuration:
+
+```
+from polymarket_arbitrage import TradingBot
+
+bot = TradingBot(
+    config_path="config.yaml",
+    private_key="0xYourPrivateKey"
+)
+```
+
+🔐 Gasless Trading Setup
+-----------------------
+
+Enable zero-fee transactions via Polymarket Builder Program:
+
+1. **Apply for Builder Program**
+   
+   * Visit [polymarket.com/settings?tab=builder](https://polymarket.com/settings?tab=builder)
+   * Complete application process
+   * Receive API credentials
+2. **Configure Credentials**
+   
+   ```
+   export POLY_BUILDER_API_KEY=your_key
+   export POLY_BUILDER_API_SECRET=your_secret
+   export POLY_BUILDER_API_PASSPHRASE=your_passphrase
+   ```
+3. **Automatic Activation**
+   
+   * Bot automatically detects Builder credentials
+   * Gasless mode enabled automatically
+   * No code changes required
+
+📚 API Reference
+---------------
+
+
+### TradingBot
+
+Main trading interface for order management and market data.
+
+**Key Methods:**
+
+```
+# Order Management
+await bot.place_order(token_id, price, size, side, order_type="GTC")
+await bot.cancel_order(order_id)
+await bot.cancel_all_orders()
+await bot.get_open_orders()
+await bot.get_order(order_id)
+
+# Market Data
+await bot.get_order_book(token_id)
+await bot.get_market_price(token_id)
+await bot.get_trades(token_id=None, limit=100)
+
+# Wallet Management
+await bot.deploy_safe_if_needed()
+```
+
+### MarketWebSocket
+
+Real-time WebSocket client for orderbook streaming.
+
+**Key Methods:**
+
+```
+# Connection Management
+await ws.subscribe(asset_ids, replace=False)
+await ws.run(auto_reconnect=True)
+await ws.disconnect()
+
+# Data Access
+ws.get_orderbook(asset_id)
+ws.get_mid_price(asset_id)
+
+# Event Handlers
+@ws.on_book
+async def handle_book(snapshot): ...
+
+@ws.on_connect
+def handle_connect(): ...
+```
+
+### GammaClient
+
+Market discovery and information client.
+
+**Key Methods:**
+
+```
+client.get_current_15m_market(coin)
+client.get_market_info(coin)
+client.get_market_by_slug(slug)
+```
+
+🏗️ Project Structure
+--------------------
+
+
+```
+polymarket-arbitrage-bot/
+├── polymarket_arbitrage/          # Main package
+│   ├── core/                      # Core trading functionality
+│   │   ├── bot.py                 # TradingBot class
+│   │   ├── client.py              # API clients (CLOB, Relayer)
+│   │   ├── config.py              # Configuration management
+│   │   ├── crypto.py              # Private key encryption
+│   │   ├── gamma_client.py        # Market discovery
+│   │   ├── signer.py              # EIP-712 order signing
+│   │   ├── websocket_client.py    # WebSocket client
+│   │   └── utils.py               # Helper functions
+│   ├── strategies/                # Trading strategies
+│   │   ├── base_strategy.py       # Base strategy class
+│   │   └── flash_crash_strategy.py
+│   ├── utils/                     # Utility components
+│   │   ├── market_manager.py      # Market discovery & WebSocket
+│   │   ├── price_tracker.py       # Price history tracking
+│   │   ├── position_manager.py    # Position management
+│   │   └── terminal_utils.py      # Terminal UI utilities
+│   └── cli/                       # Command-line tools
+│       ├── flash_crash_runner.py   # Flash crash strategy CLI
+│       └── orderbook_viewer.py     # Orderbook viewer CLI
+├── setup.py                       # Package installation
+├── requirements.txt               # Python dependencies
+├── config.example.yaml            # Configuration template
+└── README.md                      # This file
+
+```
+
+🔒 Security
+----------
+
+
+### Private Key Encryption
+
+Private keys are encrypted using industry-standard cryptography:
+
+* **Key Derivation**: PBKDF2-HMAC-SHA256 with 480,000 iterations
+* **Encryption**: Fernet (AES-128-CBC + HMAC-SHA256)
+* **Salt**: Unique 32-byte salt per encryption
+* **File Permissions**: Automatically set to 0600 (owner-only)
+
+### Best Practices
+
+* ✅ Never commit `.env` files or private keys to version control
+* ✅ Use a dedicated trading wallet separate from main funds
+* ✅ Store encrypted key files in secure locations
+* ✅ Use strong passwords (12+ characters, mixed case, numbers, symbols)
+* ✅ Rotate keys periodically
+* ✅ Review and audit code before using with real funds
+
+### Encrypting Your Private Key
+
+
+```
+from polymarket_arbitrage.core import KeyManager
+
+manager = KeyManager()
+manager.encrypt_and_save(
+    private_key="0xYourPrivateKey",
+    password="your_secure_password",
+    filepath="credentials/key.enc"
+)
+```
+
+🐛 Troubleshooting
+-----------------
+
+
+### Common Issues
+
+
+| Issue | Solution |
+| --- | --- |
+| **Missing credentials** | Set `POLY_PRIVATE_KEY` and `POLY_PROXY_WALLET` environment variables |
+| **Invalid private key** | Ensure key is 64 hex characters (0x prefix optional) |
+| **Order failed** | Check sufficient USDC balance in your wallet |
+| **WebSocket errors** | Verify network/firewall settings allow WebSocket connections |
+| **Builder API errors** | Verify Builder Program credentials are correct |
+| **Import errors** | Ensure package is installed: `pip install -e .` |
+
+
+### Debug Mode
+
+Enable detailed logging:
+
+```
+polymarket-flash-crash --coin ETH --debug
+```
+
+### Getting Help
+
+* 📖 Check the [API Reference](#-api-reference) section
+* 💬 Contact support: [Telegram](https://t.me/novustch) | [Twitter](https://x.com/novustch)
+* 🐛 Report issues: [GitHub Issues](https://github.com/Novus-Tech-LLC/polymarket-arbitrage-bot/issues)
+
+🤝 Contributing
+--------------
+
+Contributions are welcome! Please follow these guidelines:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+### Development Setup
+
+
+```
+# Clone repository
+git clone https://github.com/Novus-Tech-LLC/polymarket-arbitrage-bot.git
+cd polymarket-arbitrage-bot
+
+# Install in development mode
+pip install -e ".[dev]"
+
+# Run tests (if available)
+pytest
+```
+
+📄 License
+---------
+
+This project is licensed under the MIT License - see the [LICENSE](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/blob/main/LICENSE) file for details.
+
+🌟 Related Projects
+------------------
+
+
+### Rust Trading Bot
+
+High-performance Polymarket trading bot built with Rust:
+
+* ⚡ Ultra-low latency execution
+* 🎯 Advanced order management
+* 📊 Professional trading interface
+
+### Dutch Book Arbitrage Bot
+
+Automated system for detecting guaranteed-profit opportunities in Polymarket binary markets:
+
+* 🔍 Real-time arbitrage detection
+* ⚡ 5-40ms detection latency
+* 💰 Risk-free profit opportunities
+
+For more information, contact: [@novustch](https://t.me/novustch)
+
+📞 Support & Contact
+-------------------
+
+* **Telegram**: [@novustch](https://t.me/novustch)
+* **Twitter**: [@novustch](https://x.com/novustch)
+* **GitHub**: [Novus-Tech-LLC/polymarket-arbitrage-bot](https://github.com/Novus-Tech-LLC/polymarket-arbitrage-bot)
+
+🎯 Keywords
+----------
+
+Polymarket, Trading Bot, Prediction Markets, Arbitrage, Flash Crash, WebSocket, Gasless Trading, Python Trading, Cryptocurrency Trading, Automated Trading, DeFi, Polygon, EIP-712, Orderbook, Market Making, Trading Strategies
+
+---
+
+**Made with ❤️ by Novus Tech LLC**
+
+   
+
+
+
+About
+-----
+
+Polymarket and kalshi trading bot, polymarket trading bot, polymarket arbitrage bot, polymarket trading bot, kashi trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot
+
+
+[polymarket.com/](https://polymarket.com/)
+
+### Topics
+
+[polymarket](/topics/polymarket)
+[polymarket-trading-bot](/topics/polymarket-trading-bot)
+[polymarket-trading](/topics/polymarket-trading)
+[polymarket-tradingbot](/topics/polymarket-tradingbot)
+[polymarket-arbitrage-bot](/topics/polymarket-arbitrage-bot)
+[kalshi-trading-bot](/topics/kalshi-trading-bot)
+[kalshi-arbitrage-bot](/topics/kalshi-arbitrage-bot)
+[polymarket-kalshi-arbitrage-bot](/topics/polymarket-kalshi-arbitrage-bot)
+
+### Resources
+
+[Readme](#readme-ov-file) 
+### License
+
+[MIT license](#MIT-1-ov-file)
+
+### Uh oh!
+
+
+
+There was an error while loading. Please reload this page.
+
+
+
+ 
+ 
+
+[Activity](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/activity) 
+[Custom properties](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/custom-properties) 
+### Stars
+
+[**34**
+stars](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/stargazers) 
+### Watchers
+
+[**0**
+watching](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/watchers) 
+### Forks
+
+[**13**
+forks](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/forks) 
+[Report repository](/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2FNovus-Tech-LLC%2FPolymarket-Arbitrage-Bot&report=Novus-Tech-LLC+%28user%29) 
+
+
+
+[Releases](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/releases)
+-------------------------------------------------------------
+
+No releases published
+
+
+[Packages
+0](/orgs/Novus-Tech-LLC/packages?repo_name=Polymarket-Arbitrage-Bot)
+------------------------------------------------------------------------------
+
+No packages published   
+
+
+
+
+Languages
+---------
+
+* [Python
+  100.0%](/Novus-Tech-LLC/Polymarket-Arbitrage-Bot/search?l=python)
+
+
+
+
+
+
+
+
+
+
+
+Footer
+------
+
+© 2026 GitHub, Inc.
+
+
+### Footer navigation
+
+* [Terms](https://docs.github.com/site-policy/github-terms/github-terms-of-service)
+* [Privacy](https://docs.github.com/site-policy/privacy-policies/github-privacy-statement)
+* [Security](https://github.com/security)
+* [Status](https://www.githubstatus.com/)
+* [Community](https://github.community/)
+* [Docs](https://docs.github.com/)
+* [Contact](https://support.github.com?tags=dotcom-footer)
+* Manage cookies
+* Do not share my personal information
+
+
+
+
+You can’t perform that action at this time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

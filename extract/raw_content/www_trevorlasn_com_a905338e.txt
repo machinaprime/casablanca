@@ -1,0 +1,160 @@
+# Source URL: https://www.trevorlasn.com/blog/how-prediction-market-polymarket-kalshi-arbitrage-works
+# Content Length: 7148 characters
+# Extracted at: 2026-02-25 16:19:51
+#============================================================
+
+
+ How Prediction Market Arbitrage Works (Polymarket, Kalshi)     [Posts](/)  [Topics](/topics)  [Newsletter](https://trevorlasn.substack.com/)                      
+
+How Prediction Market Arbitrage Works (Polymarket, Kalshi)
+==========================================================
+
+Buy YES and NO for less than a dollar. One of them pays out a dollar. Keep the difference.
+------------------------------------------------------------------------------------------
+
+  ![]() Trevor I. Lasn ·    Jan 29, 2026  · 4 min read   
+Building [0xinsider.com](https://0xinsider.com) — see who's winning across prediction markets (Polymarket, Kalshi, and more) — and what they're trading right now.
+  
+
+Polymarket and Kalshi are prediction markets. You trade on the outcome of real events — elections, economic data, whether it’ll snow in April. Every question has two contracts: YES and NO.
+
+Each contract pays out $1 if it’s right, $0 if it’s wrong. You buy at whatever price the market sets.
+
+Here’s where it gets interesting. In a perfectly efficient market, YES + NO always equals $1.00. But markets aren’t always efficient.
+
+Take a question like “Will Bitcoin hit $100k by March?”
+
+| Contract | Price |
+| --- | --- |
+| YES | $0.42 |
+| NO | $0.55 |
+| **Total** | **$0.97** |
+
+YES + NO = $0.97. That’s less than a dollar.
+
+You buy both. One YES contract for $0.42 and one NO contract for $0.55. Total cost: $0.97.
+
+Now think about what happens:
+
+* Bitcoin hits $100k → YES pays $1.00, NO pays $0. You get $1.00.
+* Bitcoin doesn’t hit $100k → YES pays $0, NO pays $1.00. You get $1.00.
+
+Either way, you get $1.00 back. You paid $0.97. That’s $0.03 profit per pair, no matter what happens.
+
+
+
+```
+1        YOU2         │3    pay $0.974    ┌────┴────┐5    ▼         ▼6  YES       NO7 $0.42     $0.558    │         │9    ▼         ▼10 ┌─────────────────┐11 │  ONE of these   │12 │  pays out $1.00 │13 └────────┬────────┘14          ▼15   You get $1.0016   Profit: $0.03
+```
+
+This is arbitrage. You’re not predicting anything. You’re exploiting a pricing gap.
+
+Why the Gap Exists
+------------------
+
+In theory, YES + NO should always equal $1.00. In practice, they drift apart:
+
+
+
+```
+1  Efficient market          After news breaks2
+3  YES  $0.50                YES  $0.58  ← buyers rush in4  NO   $0.50                NO   $0.39  ← hasn't adjusted5  ──────────                ──────────6  Sum  $1.00                Sum  $0.97  ← gap opens
+```
+
+**New information hits.** A news story breaks and traders rush to buy YES. The YES price jumps, but NO hasn’t adjusted yet. For a brief moment, the sum drops below $1.00.
+
+**Low liquidity.** If barely anyone is trading a market, prices get stale. One side updates while the other lags behind.
+
+**Different platforms.** Polymarket might price YES at $0.45 while Kalshi prices NO on the same event at $0.52. Same event, different markets, different prices.
+
+
+
+```
+1  Same event: "Will X happen?"2
+3  Polymarket          Kalshi4  ┌──────────┐        ┌──────────┐5  │ YES $0.45│        │ YES $0.51│6  │ NO  $0.58│        │ NO  $0.52│7  └──────────┘        └──────────┘8
+9  Buy YES here ───────────────────► Buy NO here10      $0.45          +                 $0.5211                                  ──────────12                          Total:     $0.9713                          Payout:    $1.0014                          Profit:    $0.03
+```
+
+Three cents doesn’t sound like much. But it scales linearly.
+
+| Pairs | Cost | Payout | Profit |
+| --- | --- | --- | --- |
+| 1 | $0.97 | $1.00 | $0.03 |
+| 100 | $97 | $100 | $3 |
+| 1,000 | $970 | $1,000 | $30 |
+| 10,000 | $9,700 | $10,000 | $300 |
+
+The return is small per unit, but it’s risk-free. The only question is how many pairs you can buy before the price moves.
+
+The Catches
+-----------
+
+**Fees.** Polymarket only charges taker fees — if you place a limit order that sits on the book (maker), you pay zero fees. You only pay when you take someone else’s order. Kalshi charges a transaction fee on your expected earnings, and some markets also have maker fees on resting orders (common during elections, big sporting events, awards). A $0.03 gap can disappear after fees eat into it, so how you place orders matters. Maker orders on Polymarket keep the full spread.
+
+**Slippage.** The price you see isn’t always the price you get. If you try to buy 1,000 YES contracts at $0.42, there might only be 200 available at that price. The rest fill at $0.43, $0.44, and now your gap is gone.
+
+
+
+```
+1  Order book for YES:2
+3  Price    Available4  $0.42    200 contracts  ← you want 1,0005  $0.43    300 contracts6  $0.44    500 contracts7           ───8           1,000 total9
+10  Average price: $0.434, not $0.4211  Your gap just shrank from $0.03 to $0.016
+```
+
+**Speed.** These windows last seconds, not minutes. By the time you spot the gap and click buy, someone else already took it. This is why most prediction market arbitrage is done by bots — programs that watch prices across markets and execute trades in milliseconds.
+
+**Liquidity.** Thin markets have bigger gaps but you can’t buy enough pairs to make meaningful money. Liquid markets have smaller gaps but can absorb larger orders.
+
+The gap has to be large enough to survive fees, slippage, and execution time. In practice, that means most opportunities aren’t worth it for humans clicking buttons. But for automated systems watching hundreds of markets simultaneously, the small edges add up.
+
+Prediction markets are becoming a real-time layer on top of everything — politics, crypto, macro. The interesting part isn’t the arbitrage itself, it’s what the pricing tells you about how information moves through markets. We dig into these kinds of signals at [0xinsider.com](https://0xinsider.com/).
+
+ 
+
+---
+
+ ![]()
+
+Trevor I. Lasn
+==============
+
+Building [0xinsider.com](https://0xinsider.com) — see who's winning across prediction markets (Polymarket, Kalshi, and more) — and what they're trading right now. Product engineer based in Tartu, Estonia, building and shipping for over a decade.
+
+ 
+
+---
+
+  [Found this article helpful? You might enjoy my free newsletter. I
+share dev tips and insights to help you grow your coding skills
+and advance your tech career.](https://trevorlasn.substack.com)  
+
+---
+
+ 
+
+Related Articles
+----------------
+
+### Check out these related articles that might be useful for you. They cover similar topics and provide additional insights.
+
+  [Prediction markets       5 min read 
+#### I Built 0xInsider.com — a Whale Trade Tracker for Prediction Markets
+
+Every large trade on Polymarket and Kalshi, the second it happens. Currently in beta — join the Discord for early access.
+
+  Feb 11, 2026  
+Read article](/blog/0xinsider-prediction-market-whale-tracking)      [all articles](/)   
+
+---
+
+  
+
+This article was originally published on
+<https://www.trevorlasn.com/blog/how-prediction-market-polymarket-kalshi-arbitrage-works>. It was written by a human and polished using grammar tools for
+clarity.
+
+    © Trevor I. Lasn 2017 - 2025
+
+---
+
+[Hall of Fame](/hall-of-fame)[Privacy Policy](/privacy-policy)[Sitemap](https://www.trevorlasn.com/sitemap-index.xml)[RSS](/rss.xml)  

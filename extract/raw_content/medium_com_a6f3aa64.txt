@@ -1,0 +1,110 @@
+# Source URL: https://medium.com/@jeremywhittaker/arbitrage-in-polymarket-com-5429a4f59c3a
+# Content Length: 10544 characters
+# Extracted at: 2026-02-25 16:19:54
+#============================================================
+
+Arbitrage in Polymarket.com. About a month ago, I noticed some… | by Jeremy Whittaker | Medium
+[Sitemap](/sitemap/sitemap.xml)
+[Open in app](https://play.google.com/store/apps/details?id=com.medium.reader&referrer=utm\_source%3DmobileNavBar&source=post\_page---top\_nav\_layout\_nav-----------------------------------------)
+Sign up
+[Sign in](/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F%40jeremywhittaker%2Farbitrage-in-polymarket-com-5429a4f59c3a&source=post\_page---top\_nav\_layout\_nav-----------------------global\_nav------------------)
+[Medium Logo](/?source=post\_page---top\_nav\_layout\_nav-----------------------------------------)
+[Write](/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2Fnew-story&source=---top\_nav\_layout\_nav-----------------------new\_post\_topnav------------------)
+[Search](/search?source=post\_page---top\_nav\_layout\_nav-----------------------------------------)
+Sign up
+[Sign in](/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F%40jeremywhittaker%2Farbitrage-in-polymarket-com-5429a4f59c3a&source=post\_page---top\_nav\_layout\_nav-----------------------global\_nav------------------)
+![](https://miro.medium.com/v2/resize:fill:32:32/1\*dmbNkD5D-u45r44go\_cf0g.png)
+# Arbitrage in Polymarket.com
+[![](https://miro.medium.com/v2/resize:fill:32:32/2\*hXLIcB\_YPwyLfo4bk4WP3w.jpeg)](/@jeremywhittaker?source=post\_page---byline--5429a4f59c3a---------------------------------------)
+[Jeremy Whittaker](/@jeremywhittaker?source=post\_page---byline--5429a4f59c3a---------------------------------------)
+4 min read
+·
+Sep 24, 2024
+--
+1
+Listen
+Share
+About a month ago, I noticed some arbitrage opportunities on Polymarket.com. However, the liquidity on the platform isn’t significant enough for me to pursue this further. I’m planning to return to stock trading. That said, I still have around $60,000 actively invested in various markets on Polymarket. Most of these trades will expire after the election, so I’ll close them out then. Below, I’ll walk you through these trades and offer some free code for anyone interested in exploring this market.
+## Arb 1: Harris for President and buy all GOP Electoral College Margins
+The strategy here is straightforward: We’re betting that Kamala Harris will win the presidency, while simultaneously buying all the GOP Electoral College margins. Essentially, these two positions are opposites. If the total of both bets is less than 1, that difference represents the percentage of guaranteed profit — our arbitrage. As of today, this trade is yielding a 3.5% arbitrage with 41 days remaining until the election. That translates to a ~41% annualized return.
+Below, you’ll find a plot that shows how I’ve structured my trades. You can see I’ve bought nearly equal amounts of shares in all possible outcomes.
+Press enter or click to view image in full size
+![](https://miro.medium.com/v2/resize:fit:700/0\*aAm8voVszN5sQeaQ.png)
+Here are my trades on [Polymarket.com](https://polymarket.com/). You can see I’ve essentially bought the same number of shares of each of possible outcomes.
+Press enter or click to view image in full size
+![](https://miro.medium.com/v2/resize:fit:700/0\*-Yfw2cC3evbl6Gnb.png)
+Press enter or click to view image in full size
+![](https://miro.medium.com/v2/resize:fit:700/0\*SoOA6dMrlDv8YwGh.png)
+Here’s a summary of my trades placed live on Polymarket. The average cost of these positions is 0.983, meaning my expected return is 1–0.983, or 1.7%. My last trade had a cost basis of 0.979, yielding a 2.1% return.
+Press enter or click to view image in full size
+![](https://miro.medium.com/v2/resize:fit:700/0\*vjcDaBhSRxhUP0xM.png)
+## Arb 2: Trump for President hedged with DEMS to win the popular vote and presidency
+This strategy is showing a 2.55% arbitrage. In this scenario, we’re betting on Trump to win, while hedging by betting that the Democrats will win both the popular vote and the presidency. While this is not a perfect hedge (since it’s possible for the Democrats to win the presidency without the popular vote), based on my modeling, this scenario is highly unlikely. Therefore, I consider this hedge to be sound.
+Press enter or click to view image in full size
+![](https://miro.medium.com/v2/resize:fit:700/0\*7QvtTt21lQxibLin.png)
+Below are my actual trades, demonstrating that I have an equal number of shares for each side of the bet.
+Press enter or click to view image in full size
+![](https://miro.medium.com/v2/resize:fit:700/0\*wkcEDvxxnZkImK4\_.png)
+## Arb 3: Buy all the no outcomes for DEM and GOP popular vote
+For this trade, I’ve bought the “No” outcome on every possible bet for the popular vote. This currently presents a 6.65% arbitrage opportunity.
+## Get Jeremy Whittaker’s stories in your inbox
+Join Medium for free to get updates from this writer.
+Subscribe
+Subscribe
+Here are the actual trades. As you can see, all but one of these bets will win on election day. The total profit from the winning trades, minus the loss from the single losing trade, results in the overall return.
+Press enter or click to view image in full size
+![](https://miro.medium.com/v2/resize:fit:700/0\*jKgBXk05GMCE73qL.png)
+Here are my actual trades. All of these except 1 will win on election day. So the winning side of all these trades less 1 needs to be greater than the amount lost on the losing trade.
+Press enter or click to view image in full size
+![](https://miro.medium.com/v2/resize:fit:700/0\*RM4uybwJuIIpDck2.png)
+## Last arb:
+I wrote extensively about betting against Nate Silver and 538 predictions in an older blog post [here](https://jeremywhittaker.com/index.php/2024/08/30/exploiting-arbitrage-betting-against-nate-silver-for-a-54-yield/). This goes in-depth on how I will trade these two markets.
+I’ve written in-depth about my strategy of betting against Nate Silver and the predictions from FiveThirtyEight in a previous blog post, which you can find [here](https://jeremywhittaker.com/index.php/2024/08/30/exploiting-arbitrage-betting-against-nate-silver-for-a-54-yield/). That post details how I plan to trade these two markets.
+Press enter or click to view image in full size
+![](https://miro.medium.com/v2/resize:fit:700/0\*y-Dux0VTCwtvxF18.png)
+Press enter or click to view image in full size
+![](https://miro.medium.com/v2/resize:fit:700/0\*2hEJArY8O-P5kq24.png)
+## Read the Rules Carefully
+One important tip: Always read the rules of each trade carefully. Some positions may seem like arbitrage opportunities, but they can carry hidden risks. For example, if a candidate were to be assassinated, you could lose all your money, despite thinking you had a safe arbitrage position.
+## Spread Matters
+One of the biggest challenges I’ve encountered is market impact. When I place a trade, I often move the entire market in my direction due to the low liquidity. This creates discrepancies between the bid, ask, mid, live, and actual trade prices. Below are examples of this from the trades I shared earlier.
+Press enter or click to view image in full size
+![](https://miro.medium.com/v2/resize:fit:700/0\*i3vySSvOdmu-P7vb.png)
+Press enter or click to view image in full size
+![](https://miro.medium.com/v2/resize:fit:700/0\*pm27K-bLVFVw\_DJU.png)
+Press enter or click to view image in full size
+![](https://miro.medium.com/v2/resize:fit:700/0\*Zbt4cgMoVQBRt0tM.png)
+Press enter or click to view image in full size
+![](https://miro.medium.com/v2/resize:fit:700/0\*2-dBAOf09qPPwR51.png)
+All of the code for these charts and plots can be found on my [full article](https://jeremywhittaker.com/index.php/2024/09/24/arbitrage-in-polymarket-com/).
+[Polymarket](/tag/polymarket?source=post\_page-----5429a4f59c3a---------------------------------------)
+[Polygon](/tag/polygon?source=post\_page-----5429a4f59c3a---------------------------------------)
+[Ethereum](/tag/ethereum?source=post\_page-----5429a4f59c3a---------------------------------------)
+[Investing](/tag/investing?source=post\_page-----5429a4f59c3a---------------------------------------)
+[Arbitrage](/tag/arbitrage?source=post\_page-----5429a4f59c3a---------------------------------------)
+--
+--
+1
+[![](https://miro.medium.com/v2/resize:fill:48:48/2\*hXLIcB\_YPwyLfo4bk4WP3w.jpeg)](/@jeremywhittaker?source=post\_page---post\_author\_info--5429a4f59c3a---------------------------------------)
+[![](https://miro.medium.com/v2/resize:fill:64:64/2\*hXLIcB\_YPwyLfo4bk4WP3w.jpeg)](/@jeremywhittaker?source=post\_page---post\_author\_info--5429a4f59c3a---------------------------------------)
+[## Written by Jeremy Whittaker](/@jeremywhittaker?source=post\_page---post\_author\_info--5429a4f59c3a---------------------------------------)
+[133 followers](/@jeremywhittaker/followers?source=post\_page---post\_author\_info--5429a4f59c3a---------------------------------------)
+·[65 following](/@jeremywhittaker/following?source=post\_page---post\_author\_info--5429a4f59c3a---------------------------------------)
+Dad, Husband, Entrepreneur, Quantitative Investor
+## Responses (1)
+![](https://miro.medium.com/v2/resize:fill:32:32/1\*dmbNkD5D-u45r44go\_cf0g.png)
+Write a response
+[What are your thoughts?](/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40jeremywhittaker%2Farbitrage-in-polymarket-com-5429a4f59c3a&source=---post\_responses--5429a4f59c3a---------------------respond\_sidebar------------------)
+Cancel
+Respond
+See all responses
+[Help](https://help.medium.com/hc/en-us?source=post\_page-----5429a4f59c3a---------------------------------------)
+[Status](https://status.medium.com/?source=post\_page-----5429a4f59c3a---------------------------------------)
+[About](/about?autoplay=1&source=post\_page-----5429a4f59c3a---------------------------------------)
+[Careers](/jobs-at-medium/work-at-medium-959d1a85284e?source=post\_page-----5429a4f59c3a---------------------------------------)
+[Press](mailto:pressinquiries@medium.com)
+[Blog](https://blog.medium.com/?source=post\_page-----5429a4f59c3a---------------------------------------)
+[Privacy](https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=post\_page-----5429a4f59c3a---------------------------------------)
+[Rules](https://policy.medium.com/medium-rules-30e5502c4eb4?source=post\_page-----5429a4f59c3a---------------------------------------)
+[Terms](https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=post\_page-----5429a4f59c3a---------------------------------------)
+[Text to speech](https://speechify.com/medium?source=post\_page-----5429a4f59c3a---------------------------------------)

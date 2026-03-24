@@ -1,16 +1,36 @@
 /**
- * Polymarket Trading Bot - Node.js Version
+ * Polymarket Trading Bot - SECURE VERSION
+ * Uses environment variables for sensitive data
+ * 
+ * Set these env vars before running:
+ *   export POLY_PRIVATE_KEY=your_private_key_here
+ *   export POLY_PROXY_WALLET=your_proxy_wallet_here
  */
+
 const { ethers } = require('ethers');
 const axios = require('axios');
 
+// Load from environment variables - NEVER hardcode keys!
 const CONFIG = {
-  privateKey: '0x201873b80be149ec85aa9e18c34a4746c53e5f63e853950dc28389b8d82fe2c5',
-  proxyWallet: '0x618a1aa9459569B9c437765870eD13252c6f6420',
-  tradeSize: 5,
-  minProfit: 0.02,
-  dryRun: true // Set to false to actually trade
+  privateKey: process.env.POLY_PRIVATE_KEY,
+  proxyWallet: process.env.POLY_PROXY_WALLET,
+  tradeSize: parseInt(process.env.TRADE_SIZE) || 5,
+  minProfit: parseFloat(process.env.MIN_PROFIT) || 0.02,
+  dryRun: process.env.DRY_RUN !== 'false'
 };
+
+// Validate config
+if (!CONFIG.privateKey) {
+  console.log('❌ Error: POLY_PRIVATE_KEY not set');
+  console.log('   Run: export POLY_PRIVATE_KEY=your_key_here');
+  process.exit(1);
+}
+
+if (!CONFIG.proxyWallet) {
+  console.log('❌ Error: POLY_PROXY_WALLET not set');
+  console.log('   Run: export POLY_PROXY_WALLET=your_proxy_wallet');
+  process.exit(1);
+}
 
 const CLOB = 'https://clob.polymarket.com';
 
@@ -18,6 +38,7 @@ console.log('🤖 Polymarket Trading Bot');
 console.log('='.repeat(40));
 console.log('Mode:', CONFIG.dryRun ? 'DRY RUN' : 'LIVE');
 console.log('Wallet:', CONFIG.privateKey.slice(0, 10) + '...');
+console.log('Proxy:', CONFIG.proxyWallet.slice(0, 10) + '...');
 console.log('');
 
 async function getMarkets() {
@@ -91,7 +112,7 @@ async function main() {
   await scan();
   console.log('\n✅ Scan complete');
   if (CONFIG.dryRun) {
-    console.log('💡 Set dryRun = false to trade for real\n');
+    console.log('💡 Set DRY_RUN=false to trade for real\n');
   }
 }
 
